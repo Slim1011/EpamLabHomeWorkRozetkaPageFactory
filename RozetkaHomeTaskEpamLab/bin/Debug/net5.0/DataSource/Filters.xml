@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Filters>
+	
+	<TypeOfGood>laptop</TypeOfGood>
+	<Brand>razer</Brand>
+	<TypeOfSort>От дорогих к дешевым</TypeOfSort>
+	<PriceLimit>120000</PriceLimit>	
+	
+</Filters>
