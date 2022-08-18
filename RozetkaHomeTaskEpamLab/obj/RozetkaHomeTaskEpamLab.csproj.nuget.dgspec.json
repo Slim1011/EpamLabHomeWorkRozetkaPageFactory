@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj": {}
+    "C:\\Users\\angid\\OneDrive\\Documents\\EpamLabHomeWorkRozetkaPageFactory\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj": {
+    "C:\\Users\\angid\\OneDrive\\Documents\\EpamLabHomeWorkRozetkaPageFactory\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj",
+        "projectUniqueName": "C:\\Users\\angid\\OneDrive\\Documents\\EpamLabHomeWorkRozetkaPageFactory\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj",
         "projectName": "RozetkaHomeTaskEpamLab",
-        "projectPath": "E:\\Projects\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab\\obj\\",
+        "projectPath": "C:\\Users\\angid\\OneDrive\\Documents\\EpamLabHomeWorkRozetkaPageFactory\\RozetkaHomeTaskEpamLab\\RozetkaHomeTaskEpamLab.csproj",
+        "packagesPath": "C:\\Users\\angid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\angid\\OneDrive\\Documents\\EpamLabHomeWorkRozetkaPageFactory\\RozetkaHomeTaskEpamLab\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\angid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -50,7 +46,7 @@
             },
             "DotNetSeleniumExtras.PageObjects.Core": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[4.3.0, )"
             },
             "DotNetSeleniumExtras.WaitHelpers": {
               "target": "Package",
@@ -58,27 +54,27 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[17.3.0, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.13.1, )"
+              "version": "[3.13.3, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.2.1, )"
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.4.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.1.0, )"
+              "version": "[4.4.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[100.0.4896.6000, )"
+              "version": "[104.0.5112.7900, )"
             },
             "Serilog": {
               "target": "Package",
@@ -93,12 +89,14 @@
               "version": "[5.0.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.2, )"
+              "version": "[3.1.2, )"
             },
             "log4net": {
               "target": "Package",
-              "version": "[2.0.14, )"
+              "version": "[2.0.15, )"
             }
           },
           "imports": [
@@ -111,22 +109,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
