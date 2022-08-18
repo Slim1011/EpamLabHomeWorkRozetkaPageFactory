@@ -31,6 +31,7 @@ namespace RozetkaHomeTaskEpamLab.rozetkaTests
             {
 
                 Log.Error(ex, "Error log");
+                Console.WriteLine("12");
 
             }
 
