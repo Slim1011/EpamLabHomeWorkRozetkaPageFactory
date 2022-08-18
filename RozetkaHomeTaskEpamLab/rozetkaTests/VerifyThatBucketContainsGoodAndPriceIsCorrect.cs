@@ -1,10 +1,7 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using RozetkaHomeTaskEpamLab.DataSource;
-using RozetkaHomeTaskEpamLab.Utils;
 using Serilog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 
 namespace RozetkaHomeTaskEpamLab.rozetkaTests
@@ -13,7 +10,7 @@ namespace RozetkaHomeTaskEpamLab.rozetkaTests
     {
 
         [Test]
-        
+
         public void VerifyThatBucketContainsGoodWithCorrectPrice()
         {
             try
@@ -34,9 +31,10 @@ namespace RozetkaHomeTaskEpamLab.rozetkaTests
             {
 
                 Log.Error(ex, "Error log");
+                Console.WriteLine("1");
             }
 
-            
+
         }
     }
 }
